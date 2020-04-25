@@ -4,7 +4,7 @@ The diagnosis of pneumonia on CXR is complicated because of a number of other co
 
 # Data
 I used the dataset of Chest X-Ray Images (Pneumonia) from kaggle. It is https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia.
-Dataset includes three folders which are test, train, val. In addition, each folder includes two sub folders which are ‘normal’ and ‘pneumonia’.
+The Dataset includes three folders which are test, train, val. In addition, each folder includes two sub folders which are ‘normal’ and ‘pneumonia’.
 
 # Model
 I built a CNN(convolutional neural network) model.
