@@ -3,7 +3,7 @@
 The diagnosis of pneumonia on CXR is complicated because of a number of other conditions in the lungs such as fluid overload, bleeding, volume loss, lung cancer. In addition, clinicians are reading high volumes of images every shift. Sometimes being tired or distracted clinicians can miss some details in image. Pneumonia detection using deep learning can help the clinicians to diagnose the disease
 
 # Data
-I used the dataset of Chest X-Ray Images (Pneumonia) from kaggle. It is a dataset of chest X-Rays.
+I used the dataset of Chest X-Ray Images (Pneumonia) from kaggle. It is https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia.
 Dataset includes three folders which are test, train, val. In addition, each folder includes two sub folders which are ‘normal’ and ‘pneumonia’.
 
 # Model
