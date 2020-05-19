@@ -20,16 +20,16 @@ Activation function was Relu throughout except for the last layer where it was S
 I have used RMSprob as the optimizer and cross-entropy as the loss.
 Before training the model I define some callbacks which are ModelCheckpoint and EarlyStopping.
 # Transfer Learning
-I applied transfer learning with two models which are VGG16 and ResNet50 but I got best result with the model from scratch.
+I applied transfer learning with two models which are VGG16, VGG19, InceptionV3, ResNet50 and I got best result with the model ResNet50.
 
 # Best Model's Results
-Accuracy of the model is 0.88
+Accuracy of the model is 0.93
 
-Recall of the model is 0.97
+Recall of the model is 0.98
 
-Precision of the model is 0.85
+Precision of the model is 0.91
 
-f1_score of the model is 0.91
+f1_score of the model is 0.94
 
 The accuracy means the fraction predicted correctly to total data.
 
@@ -39,4 +39,4 @@ The precision means “What percent of your predictions were correct?”
 
 The f1-score is the harmonic mean between precision & recall. It means “What percent of positive predictions were correct? “
 # Conclusion
-I used a CNN model from scratch and transfer learning models which are VGG16 and ResNet50. The best model was the model from scratch which has good accuracy which is 88% to detect pneumonia disease.
+I used a CNN model from scratch and transfer learning models which are VGG16, VGG19, InceptionV3, ResNet50. The best model was the model ResNet50 which has good accuracy which is 93% to detect pneumonia disease.
